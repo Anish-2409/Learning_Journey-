@@ -1,16 +1,20 @@
 # My Learning Journey
 
-Hi, I'm Anish P , a first-year B.Tech CSE student at VIT Vellore.
+Hi, I'm Anish P, a first-year B.Tech CSE student at VIT Vellore.
 
-I'm a beginner who is curious about robotics, programming, and building things.
+I'm a beginner, curious about AI, robotics, and building things.
+Humanoid robots (and movies like I, Robot) are what got me started.
 
 ## What I'm learning
-- Basics Of Programming
-- Basics Of HTML , CSS , Python 
+- Website development (HTML, CSS)
+- Python basics
 
 ## My goal
-To build real projects, , and grow into a skilled engineer.
+To learn AI/ML step by step, build real projects, and grow into a skilled engineer.
 
 ## Currently working on
 - Learning Git and GitHub
-- Building small projects on  HTML  , CSS
+- Practicing Python and web development basics
+
+## Beyond code
+I play football and enjoy working in a team.
