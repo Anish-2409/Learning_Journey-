@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project Card</title>
+  <style>
+    .project-card {
+      position: relative;
+      overflow: hidden;
+      
+      /* 1. GIVE THE CARD A VISIBLE SIZE */
+      width: 300px;
+      height: 200px;
+      border-radius: 12px;
+      background-color: #2563eb; /* Blue placeholder card */
+      cursor: pointer;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: 0.3s;
+    }
+
+    /* 2. NOTICE THE EXACT SPACING HERE: :hover<space>.overlay */
+    .project-card:hover .overlay {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 3. MAKE SURE .overlay IS NESTED INSIDE .project-card -->
+  <div class="project-card">
+    <img src="https://picsum.photos/300/200" alt="">
+    <div class="overlay">
+      <h3> My Project</h3>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">  
+    <style>
+        .cards{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap:24px;
+        }
+        .card{
+            position: relative;
+            overflow: hidden;
+            background-color: rgb(5, 48, 82);
+            border-radius: 20px;
+            padding:20px;
+            width: 270px;
+            transition: transfrom 0.3s;
+
+
+
+        }
+        .tag{
+            
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="cards">
+        <div class="card">
+            <span class="badge">Completed</span>
+            <h2>Smart library Assitant</h2>
+            <p>Real-time seat tracking & IoT <br>bio-environmental monitoring.</p>
+            
+            <div class = "tag">
+                <button>Web App</button>
+            </div>
+        
+            <div class="overlay">
+            <button>View Code-</button>
+            <p>Click to open repository</p>
+            </div>
+        </div>
+</body>
